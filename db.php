@@ -1,4 +1,7 @@
 <?php
+    // ...
+    session_start();
+
     // Conexión tipo MySQLi
     $conn = mysqli_connect(
         "localhost",
