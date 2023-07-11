@@ -1,0 +1,14 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"bd_tasks_mysql"},
+{"type":"table","name":"tasks","database":"bd_tasks_mysql","data":
+[
+{"id":"1","title":"Create a website","description":"Create a website with Bootstrap 5!","created_at":"2023-07-11 11:28:41"},
+{"id":"4","title":"abc","description":"abc abc abc","created_at":"2023-07-11 11:49:07"},
+{"id":"5","title":"qwerty","description":"asdfghjk","created_at":"2023-07-11 11:51:21"},
+{"id":"6","title":"Run","description":"I need to run!!!","created_at":"2023-07-11 12:46:50"},
+{"id":"7","title":"Sleep","description":"I need to sleep!","created_at":"2023-07-11 12:48:37"},
+{"id":"8","title":"Love","description":"I need to love!","created_at":"2023-07-11 12:59:22"}
+]
+}
+]

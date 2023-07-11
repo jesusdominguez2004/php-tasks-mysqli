@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.2.1
+- https://www.phpmyadmin.net
+-
+- Servidor: 127.0.0.1
+- Tiempo de generación: 11-07-2023 a las 20:14:07
+- Versión del servidor: 10.4.28-MariaDB
+- Versión de PHP: 8.2.4
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="bd_tasks_mysql" collation="utf8_unicode_ci" charset="utf8">
+            <pma:table name="tasks">
+                CREATE TABLE `tasks` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `title` varchar(255) NOT NULL,
+                  `description` text NOT NULL,
+                  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Base de datos: 'bd_tasks_mysql'
+    -->
+    <database name="bd_tasks_mysql">
+        <!-- Tabla tasks -->
+        <table name="tasks">
+            <column name="id">1</column>
+            <column name="title">Create a website</column>
+            <column name="description">Create a website with Bootstrap 5!</column>
+            <column name="created_at">2023-07-11 11:28:41</column>
+        </table>
+        <table name="tasks">
+            <column name="id">4</column>
+            <column name="title">abc</column>
+            <column name="description">abc abc abc</column>
+            <column name="created_at">2023-07-11 11:49:07</column>
+        </table>
+        <table name="tasks">
+            <column name="id">5</column>
+            <column name="title">qwerty</column>
+            <column name="description">asdfghjk</column>
+            <column name="created_at">2023-07-11 11:51:21</column>
+        </table>
+        <table name="tasks">
+            <column name="id">6</column>
+            <column name="title">Run</column>
+            <column name="description">I need to run!!!</column>
+            <column name="created_at">2023-07-11 12:46:50</column>
+        </table>
+        <table name="tasks">
+            <column name="id">7</column>
+            <column name="title">Sleep</column>
+            <column name="description">I need to sleep!</column>
+            <column name="created_at">2023-07-11 12:48:37</column>
+        </table>
+        <table name="tasks">
+            <column name="id">8</column>
+            <column name="title">Love</column>
+            <column name="description">I need to love!</column>
+            <column name="created_at">2023-07-11 12:59:22</column>
+        </table>
+    </database>
+</pma_xml_export>
