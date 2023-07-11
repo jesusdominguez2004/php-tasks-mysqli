@@ -9,3 +9,4 @@ Algunas cosas pendientes:
 - Confirmación para borrar
 - Button cancelar en Edit
 - ¿Button deshacer lo último que se hizo (borrar, editar)?
+- Interfaz para leer base de dato local copia formato: json pdf, php array, sql y xml
